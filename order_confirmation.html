@@ -1,0 +1,154 @@
+<!doctype html> 
+<html lang="en"> 
+  <head> 
+    <!-- Required meta tags --> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+ <!-- style.css For Custom Styling  --> 
+<link rel="stylesheet" href="style.css"> 
+    <!-- Bootstrap CSS --> 
+    <link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+ <!-- fontawesome cdn For Icons --> 
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" /> 
+ 
+    <title>E-commerce</title> 
+  </head> 
+  <body id="top"> 
+    <!-- ============== Header Menu Section Starts Here ============== -->
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+                
+              
+                <!-- Logo -->
+                <a class="navbar-brand pl-5 pl-small-0" href="bootstrap.html">
+                    <img src="C:\Users\devik\OneDrive\Desktop\chinnu\project\logo.png" class="img-fluid" width="120px" alt="logo">
+
+                </a>
+
+              
+  <!-- Navbar Toggle Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="bootstrap.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="category.html">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+
+
+                    <!-- Search Button -->
+                     <div class="d-flex align-items-center">
+                     <div class="search mr-3">
+        <a href="search.html" class="btn btn-sm btn-outline-primary">Search</a>
+    </div>
+
+    <!-- Shopping Cart -->
+    <div class="cart">
+        <a href="cart.html">
+            <i class="fas fa-shopping-cart fa-2x"></i>
+            <span class="badge badge-pill badge-primary">24</span>
+        </a>
+    </div>
+    </div>
+</div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- ============== Header Menu Section Ends Here ============== -->
+       <!-- ==============order_confirmation starts here============== --> 
+    <section class="order_confirmation py-5 my-5" id="order_confirmation"> 
+        <div class="container "> 
+            <div class="section_title text-center mb-5"> 
+                <h1 class="text-capitalize">order confirmation</h1> 
+            </div> 
+            <div class="row"> 
+                <div class="col-md-6 mx-auto text-center"> 
+                    <div> 
+                        <img class="d-block w-50 mx-auto" src="https://www.shutterstock.com/image-vector/circle-check-mark-shape-vector-600nw-2470360977.jpg" class="img img-fluid" alt="image"> 
+                    </div> 
+                    <div> 
+                        <h2>Thankyou for your purchase!</h2> 
+                        <h6>Email: <b id="userEmail"></b></h6>
+<h6>Order No: <b id="orderNo"></b></h6>
+                 <h6>
+  <span class="mr-2">Order Status:</span>
+  <b><span class="badge badge-success">Confirmed</span></b>
+  </h6>
+
+
+                        <a href="bootstrap.html" class="btn btn-primary btn-lg mt-5">Return to Home</a> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+<!-- ==============order confirmation ends here============== -->
+     
+
+ <section class="footer_section pt-5 pb-2 mt-5" id="footer_section"></section>
+ <div class="backtop">
+    <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+        <i class="fas fa-chevron-up text-dark"></i>
+    </a>
+ </div>
+ <!--footer ends here-->
+    <!-- Optional JavaScript --> 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
+    <script 
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> 
+    <script 
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
+<script>
+  const orderData = {
+    email: "customer@example.com",
+    orderNo: "ORD" + Math.floor(Math.random() * 1000000000),
+    status: "Pending" // You can change this to "Confirmed", "Shipped", etc.
+  };
+
+  document.getElementById("userEmail").innerText = orderData.email;
+  document.getElementById("orderNo").innerText = orderData.orderNo;
+
+  // Dynamically create the badge for status
+  const statusElement = document.getElementById("orderStatus");
+  let badgeClass = "badge ";
+
+  if (orderData.status === "Pending") {
+    badgeClass += "badge-danger";
+  } else if (orderData.status === "Confirmed") {
+    badgeClass += "badge-success";
+  } else if (orderData.status === "Shipped") {
+    badgeClass += "badge-primary";
+  } else {
+    badgeClass += "badge-secondary"; // default fallback
+  }
+
+  statusElement.innerHTML = `<b><span class="${badgeClass}">${orderData.status}</span></b>`;
+</script>
+
+
+</body> 
+</html>
+
